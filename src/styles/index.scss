@@ -1,6 +1,14 @@
-$body-color: slateblue;
+$body-color: black;
 
 body {
   color: $body-color;
   font-family: sans-serif;
+}
+
+dfn {
+  color: blue;
+}
+
+kbd {
+  background: #cccccc;
 }

@@ -17,20 +17,26 @@ blockquote {
   color: blue;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 table,
-td {
+tr,
+td,
+th {
   border: 1px solid black;
 }
 
-thead {
-  color: green;
-  text-align: left;
-}
+// thead {
+//   color: green;
+//   text-align: left;
+// }
 
-tbody {
-  color: blue;
-}
+// tbody {
+//   color: blue;
+// }
 
-tfoot {
-  color: purple;
-}
+// tfoot {
+//   color: purple;
+// }

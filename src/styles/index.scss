@@ -16,3 +16,21 @@ kbd {
 blockquote {
   color: blue;
 }
+
+table,
+td {
+  border: 1px solid black;
+}
+
+thead {
+  color: green;
+  text-align: left;
+}
+
+tbody {
+  color: blue;
+}
+
+tfoot {
+  color: purple;
+}

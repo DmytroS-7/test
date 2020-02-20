@@ -62,6 +62,8 @@ header nav {
 header nav a,
 footer nav a {
   color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 footer nav {
@@ -87,6 +89,10 @@ h3 {
 
 a {
   color: #edd9a3;
+}
+
+p {
+  text-indent: 20px;
 }
 
 p,
@@ -116,4 +122,11 @@ figcaption {
   border: 1px solid blue;
   padding: 20px 10px;
   margin: 5px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  text-transform: capitalize;
 }

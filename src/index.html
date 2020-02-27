@@ -5,18 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProFrontend</title>
   </head>
-  <body>
+  <body onload="onPageLoad()">
     <header>
       <h1>ProFrontend</h1>
       <nav>
         <a href="#">Home</a>
-        <a href="#">Blog</a>
+        <a href="html5.html">HTML5</a>
         <a href="#">Store</a>
       </nav>
     </header>
     <main>
       <section>
-        <h2>My first HTML page</h2>
+        <ol>
+          <li>Text 1</li>
+          <li>Text 1</li>
+        </ol>
+        <br />
+        <button onclick="applyCss()">Add CSS</button>
+        <br />
+        <a href="" id="link-site">Link</a>
+        <br />
+        <input type="text" name="inputHrefField" onkeydown="inputOnKeyDown()" />
+        <button onclick="setHref()">Set HREF</button>
+        <br />
+        <p id="p-text">Text</p>
+        <button id="new-text" onclick="changeTextAndStyle()">
+          Change text
+        </button>
+        <br />
+        <input
+          id="valid-field"
+          type="text"
+          value="Hello"
+          onchange="valideField(this.value)"
+        />
+        <button onclick="buttonClick()">Click me</button>
+        <input
+          type="button"
+          onclick="showTodaysDate()"
+          value="What date is today"
+        />
+        <br />
+
         <h3>With styles and semantic tags</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing
@@ -31,6 +61,8 @@
         </p>
         <figure>
           <img
+            onmouseover="overImg()"
+            onmouseout="outImg()"
             class="img-max-width"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/450px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg"
             alt="Эйфелева башня"

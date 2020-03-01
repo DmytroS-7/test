@@ -130,3 +130,23 @@ h3 {
   text-align: center;
   text-transform: capitalize;
 }
+
+.ol-styled > li {
+  color: blue;
+}
+
+.ol-styled > ul > li {
+  background-color: #dddddd;
+}
+
+.combinators > div {
+  background-color: #dddddd;
+}
+
+span + section {
+  background-color: yellow;
+}
+
+span ~ div {
+  background-color: green;
+}

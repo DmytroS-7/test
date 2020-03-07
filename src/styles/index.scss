@@ -1,10 +1,31 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 56px;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.container {
+  // background: #f2ffe7;
+  text-align: justify;
+}
+
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-  padding: 0;
-  margin: 0;
+.container-fluid {
+  background: #faf2eb;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  .container-fluid {
+    background: #fffefd;
+  }
 }
 
 main {
@@ -64,6 +85,7 @@ footer nav a {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+  padding-right: 10px;
 }
 
 footer nav {
@@ -87,9 +109,9 @@ h3 {
   font-size: 14px;
 }
 
-a {
-  color: #edd9a3;
-}
+// a {
+//   color: #edd9a3;
+// }
 
 p {
   text-indent: 20px;
@@ -149,4 +171,21 @@ span + section {
 
 span ~ div {
   background-color: green;
+}
+
+.fig-img img {
+  width: 300px;
+}
+
+.list-mov a {
+  color: blue;
+}
+
+.test-element {
+  color: black;
+}
+
+.test-element-2 {
+  background-color: yellow;
+  border: 2px solid red;
 }

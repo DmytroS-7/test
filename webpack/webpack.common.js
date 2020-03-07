@@ -27,6 +27,14 @@ module.exports = {
       template: Path.resolve(__dirname, "../src/index.html")
     }),
     new HtmlWebpackPlugin({
+      filename: "bootstrap.html",
+      template: Path.resolve(__dirname, "../src/bootstrap.html")
+    }),
+    new HtmlWebpackPlugin({
+      filename: "manipulation-dom.html",
+      template: Path.resolve(__dirname, "../src/manipulation-dom.html")
+    }),
+    new HtmlWebpackPlugin({
       filename: "html5.html",
       template: Path.resolve(__dirname, "../src/html5.html")
     })
